@@ -48,3 +48,36 @@ margin: auto;
   flex-direction: column;
   justify-content: space-around;
 }
+
+.tea {
+  width: 1000px;
+  margin: 75px auto 10px auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.tea h4{
+  padding: 10px;
+}
+
+.row2{
+display: flex;
+justify-content: space-between;
+}
+
+.row2 img {
+height: 200px;
+width: 300px;
+}
+
+.row3{
+display: flex;
+justify-content: center;
+}
+
+.row3 img {
+height: 200px;
+width: 300px;
+padding: 0 25px;
+margin: auto;
+}
