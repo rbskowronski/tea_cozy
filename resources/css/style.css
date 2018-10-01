@@ -1,0 +1,31 @@
+*{
+  margin: 0; padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  /* color: seashell; */
+}
+
+.header {
+display: flex;
+height: 69px;
+border-bottom: 1px solid black;
+width: 100%;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.company {
+  font-family: Great Vibes;
+  font-size: 50px;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.navigation a {
+  padding: 10px;
+  /* color: seashell; */
+
+}
