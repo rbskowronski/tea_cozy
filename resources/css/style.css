@@ -18,7 +18,7 @@ flex-wrap: wrap;
 }
 
 .company {
-  font-family: Great Vibes;
+  font-family: 'Great Vibes', cursive;
   font-size: 50px;
   flex-grow: 1;
   padding: 10px;
