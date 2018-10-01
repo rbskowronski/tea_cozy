@@ -26,6 +26,25 @@ flex-wrap: wrap;
 
 .navigation a {
   padding: 10px;
-  /* color: seashell; */
+}
 
+
+.mission {
+display: flex;
+height: 700px;
+width: 1200px;
+background-image: url(../images/mission-background.jpg);
+align-items: center;
+margin: auto;
+}
+
+.mission_text {
+  display: flex;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  color: seashell;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
