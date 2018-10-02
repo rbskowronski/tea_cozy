@@ -5,7 +5,8 @@
 body {
   font-family: Helvetica;
   font-size: 22px;
-  /* color: seashell; */
+  color: seashell;
+  /* background-color: black; */
 }
 
 .header {
@@ -80,4 +81,68 @@ height: 200px;
 width: 300px;
 padding: 0 25px;
 margin: auto;
+}
+
+
+
+
+.location {
+border: 2px solid black;
+height: 500px;
+width: 1200px;
+margin: 0 auto 0 auto;
+text-align: center;
+background-image: url("../images/locations-background.jpg");
+}
+
+
+.top_row {
+margin-top: 50px;
+margin-bottom: 15px;
+ }
+
+.bottom_row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left{
+  border: 2px solid black;
+  background-color: black;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+
+.center {
+  background-color: black;
+  border: 2px solid black;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+
+.right {
+  background-color: black;
+  border: 2px solid black;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
