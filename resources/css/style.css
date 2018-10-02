@@ -12,7 +12,7 @@ body {
 .header {
 display: flex;
 height: 69px;
-border-bottom: 1px solid black;
+border-bottom: 1px solid seashell;
 width: 100%;
 align-items: center;
 flex-wrap: wrap;
@@ -27,6 +27,7 @@ flex-wrap: wrap;
 
 .navigation a {
   padding: 10px;
+  color: seashell;
 }
 
 
